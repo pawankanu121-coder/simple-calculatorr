@@ -1,13 +1,33 @@
 Here is a clean, professional, and properly formatted *README.md* for your file *college calulator.py*, written fully in Markdown:
 
----
-
 # 🧮 College Calculator (Python CLI)
 
 A simple command-line based calculator built using Python.
 This program performs basic arithmetic operations — Addition, Subtraction, Multiplication, and Division — based on user input.
+# How to work
+The program asks the user to input:
 
+First number
+Second number
+An operator (+, -, *, /)
+Based on the user's chosen operator, it performs the corresponding arithmetic operation.
 
+If an invalid operator is entered, the program displays an error message.
+
+💻 Code Overview
+a = int(input("enter first number : "))
+b = int(input("enter second number : "))
+c = str(input("choose the operator (+,-,*,/) : "))
+if c == '+':
+    print("addition =",a+b)
+elif c == '-':
+    print("subtraction =",a-b)
+elif c == '*':
+    print("multiplication =",a*b)
+elif c == '/':
+    print("division =",a/b)
+else:
+    print("invalid choice")
 ---
 
 ## 🚀 Features
@@ -34,28 +54,7 @@ college calulator.py
 
 ## 🛠 How It Works
 
-1. The program asks the user to enter:
 
-   * First number
-   * Second number
-   * Operator (+, -, *, /)
-
-2. Based on the chosen operator, it performs the calculation:
-
-| Operator | Operation      |
-| -------- | -------------- |
-| +      | Addition       |
-| -      | Subtraction    |
-| *      | Multiplication |
-| /      | Division       |
-
-3. If an invalid operator is entered, the program prints:
-
-   
-   invalid choice
-   
-
----
 
 ## ▶ How to Run
 
