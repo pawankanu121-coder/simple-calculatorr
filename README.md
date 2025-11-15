@@ -1,20 +1,34 @@
-Here is a clean, professional, and properly formatted *README.md* for your file *college calulator.py*, written fully in Markdown:
+# Simple-calculator
+Here's a clean, markdown-formatted **README** for your calculator script, based on the code you provided :
 
-# 🧮 College Calculator (Python CLI)
+---
 
-A simple command-line based calculator built using Python.
-This program performs basic arithmetic operations — Addition, Subtraction, Multiplication, and Division — based on user input.
-# How to work
-The program asks the user to input:
+# 📘 Simple Python Calculator
 
-First number
-Second number
-An operator (+, -, *, /)
-Based on the user's chosen operator, it performs the corresponding arithmetic operation.
+This project is a basic command-line calculator written in Python.
+It allows the user to input two numbers and choose an arithmetic operator to perform a calculation.
 
-If an invalid operator is entered, the program displays an error message.
+## ✨ Features
 
-💻 Code Overview
+* Addition (`+`)
+* Subtraction (`-`)
+* Multiplication (`*`)
+* Division (`/`)
+* Input validation for unsupported operators
+
+## 🧠 How It Works
+
+1. The program asks the user to input:
+
+   * First number
+   * Second number
+   * An operator (`+`, `-`, `*`, `/`)
+2. Based on the user's chosen operator, it performs the corresponding arithmetic operation.
+3. If an invalid operator is entered, the program displays an error message.
+
+## 💻 Code Overview
+
+```python
 a = int(input("enter first number : "))
 b = int(input("enter second number : "))
 c = str(input("choose the operator (+,-,*,/) : "))
@@ -28,78 +42,23 @@ elif c == '/':
     print("division =",a/b)
 else:
     print("invalid choice")
----
+```
 
-## 🚀 Features
+## ▶️ Running the Program
 
-* User-friendly command-line interface
-* Supports the four basic operations:
+1. Make sure Python is installed on your system.
+2. Save the script as `calculator.py` (or keep your existing filename).
+3. Run the program using:
 
-  * ➕ Addition
-  * ➖ Subtraction
-  * ✖ Multiplication
-  * ➗ Division
-* Handles invalid operator input
-* Beginner-friendly Python code
+```bash
+python calculator.py
+```
 
----
+4. Follow the on-screen prompts.
 
-## 📂 File Included
+## 📌 Notes
 
-
-college calulator.py
-
+* The program does not currently handle division-by-zero errors.
+* Inputs must be valid integers; otherwise Python will raise a `ValueError`.
 
 ---
-
-## 🛠 How It Works
-
-
-
-## ▶ How to Run
-
-1. Make sure you have *Python 3.x* installed.
-2. Open terminal or command prompt.
-3. Run the script:
-
-bash
-python "college calulator.py"
-
-
-4. Follow the prompts.
-
----
-
-## 📌 Example Interaction
-
-
-enter first number : 10
-enter second number : 5
-choose the operator (+,-,*,/) : *
-multiplication = 50
-
-
----
-
-## 🧰 Requirements
-
-* Python 3.x
-* No external libraries needed
-
----
-
-## 🎯 Ideal For
-
-* Beginners learning Python
-* Students practicing input/output
-* Understanding conditionals (if-elif-else)
-* Performing simple command-line calculations
-
----
-
-If you want, I can also create:
-✅ An advanced calculator version
-✅ A GUI version (Tkinter)
-✅ A fully optimized Python class-based implementation
-
-Just tell me!
